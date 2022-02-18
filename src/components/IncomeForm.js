@@ -5,7 +5,7 @@ function IncomeForm({income,setIncome}) {
 const desc=useRef(null);
 const date=useRef(null);
 const price=useRef(null);
-
+const varijabla;
 const AddIncome=(e)=>{
     e.preventDefault();
 let d=date.current.value.split("-");
@@ -19,6 +19,7 @@ desc.current.value="";
 price.current.value=null;
 date.current.value=null;
 }
+
 
 
   return (
